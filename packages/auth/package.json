@@ -1,0 +1,28 @@
+{
+	"dependencies": {
+		"@lucia-auth/adapter-prisma": "^4.0.0",
+		"arctic": "^1.9.2",
+		"database": "workspace:*",
+		"i18n": "workspace:*",
+		"logs": "workspace:*",
+		"lucia": "^3.2.0",
+		"mail": "workspace:*",
+		"next": "14.2.7",
+		"oslo": "^1.2.1",
+		"utils": "workspace:*",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/node": "^22.5.1",
+		"@types/react": "18.3.5",
+		"tsconfig": "workspace:*"
+	},
+	"main": "./index.tsx",
+	"name": "auth",
+	"scripts": {
+		"type-check": "tsc --noEmit"
+	},
+	"types": "./**/.tsx",
+	"version": "0.0.0"
+}

@@ -1,0 +1,15 @@
+{
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/node": "^22.5.1",
+		"tsconfig": "workspace:*"
+	},
+	"name": "i18n",
+	"scripts": {
+		"type-check": "tsc --noEmit"
+	},
+	"version": "0.0.0",
+	"dependencies": {
+		"deepmerge": "^4.3.1"
+	}
+}

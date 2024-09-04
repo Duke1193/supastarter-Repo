@@ -1,0 +1,14 @@
+{
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/node": "^22.5.1",
+		"tsconfig": "workspace:*"
+	},
+	"main": "./index.tsx",
+	"name": "utils",
+	"scripts": {
+		"type-check": "tsc --noEmit"
+	},
+	"types": "./**/.tsx",
+	"version": "0.0.0"
+}
